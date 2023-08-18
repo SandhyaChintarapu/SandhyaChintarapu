@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>myproifo</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <style>
+            body{
+               font-family: "pt sans" ,sans-serif;
+                background-color: #000000;
+                margin:0 ;
+                color: rgb(201, 186, 186);
+                line-height: 1.6;
+            }
+            
+            a{
+                text-decoration: none;
+                color: rgb(232, 223, 223);
+            }
+            #showcase .container{
+                margin-top: 25vh;
+            }
+            #showcase h1{
+                font-size: 4rem;
+                margin-bottom: 0;
+            }
+            #showcase h2{
+                font-size: 2rem;
+            }
+            nav{
+                height: 40px;
+                width: 100%;
+                background-color: #333;
+                color: rgb(174, 166, 166);
+                position: fixed;
+            }
+            nav ul{
+                margin:0;
+                padding: 0;
+            }
+            nav li{
+                display: inline;
+                float: left;
+            }
+            nav a{
+                display: inline-block;
+                width: 100px;
+                text-align: center;
+                text-decoration: none;
+                padding: 10px 0;
+                color: #eee;
+            }
+            nav li:hover{
+                background-color: #444;
+            }
+            .container{
+                max-width: 2180;
+                text-align: center;
+                margin:0 auto;
+                border-radius: 100%;
+                padding: 0 3rem;
+            }
+            .lead{
+                font-size: 1.3rem;
+            }
+            footer .footer-cols{
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: repeat(4,1fr);
+                padding: 2rem;
+                text-align: left;
+                font-size: 14px;
+            }
+            footer .footer-cols ul{
+                list-style: none;
+            }
+            footer .footer-cols ul li:first-child{
+                font-size: 1.2rem;
+                padding-bottom: o.5rem;
+                border-bottom: #444 solid 2px;
+                margin-bottom: 1rem;
+            }
+            footer .footer-bottom{
+                background-color: #333;
+                padding: 1rem;
+                text-align: center;
+            }
+            footer {
+                margin-top: auto;
+            }
+            body {
+                font-family: "pt sans", sans-serif;
+                margin: 0;
+                color: rgb(255, 255, 255);
+                line-height: 1.6;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+    
+            .social-icons .icon {
+                font-size: 24px;
+                color: #fff;
+                margin-right: 15px;
+                transition: transform 0.3s ease-in-out;
+            }
+    
+            .social-icons .icon:hover {
+                transform: scale(1.2);
+            }
+            .profile-photo {
+                border-radius: 50%;
+                width: 75%; /* Adjust the size as needed */
+                max-width: 200px; /* Add a max-width to limit the size */
+                height: auto;
+                object-fit: cover;
+            }
+        .watermark {
+            position: fixed;
+            top: 20px;
+            right: 60px;
+            opacity: 1.0;
+            pointer-events: none;
+            z-index: -1;
+            width: 400px; /* Adjust the width as needed */
+            height: 400px; /* Adjust the height as needed */
+            background-image: url('logo.jpg'); /* Replace with your watermark image URL */
+            border-radius: 50%; /* Make it round */
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<div class="watermark"></div>
+</body>
+</html>         
+        </style>
+    </head>
+    <body>  
+    <header> 
+        <nav class="cf">
+            <ul class="cf" >
+                <li>
+                    <a href="#showcase">Sandhya</a>
+                </li>
+                <li><a href="about.html" target="_blank">About me</a></li>
+                <li><a href="education.html" target="_blank">Education</a></li>
+
+                    <a href="certificate.html" target="_blank">Certifications</a>
+                </li>
+                <li>
+                    <a href="project.html" target="_blank">Project</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="social-icons">
+        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <section id="profile" class="section">
+        <div class="container">
+            <img src="sandhu.jpg" alt="Profile Photo" class="profile-photo">
+            <h2>Sandhya Chintarapu</h2>
+            <p>Email: <a href="mailto:csandhya2k2@gmail.com">csandhya2k2@gmail.com</a></p>
+            <p><a href="#about.html" target="_blank">Hire Me</a></p>
+        </div>
+    </section>
+    </section>
+        <div class="section-main container">
+            <p class="lead hide-on-small">
+                <b>
+                    Experiencing full-stack web developer with a strong proficiency in 
+                    both front-end and back-end technologies. Skilled in creating responsive and 
+                    visually appealing user interfaces using HTML, CSS, and JavaScript, coupled 
+                    with a solid understanding of server-side programming, database management, 
+                    and API design. Adept at translating project requirements into efficient 
+                    and scalable web applications, while consistently adhering to best practices 
+                    and staying current with industry trends.</b>
+            </p>
+
+        </div>
+        <div class="watermark"></div>
+        </div>
+        <footer>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/SandhyaChintarapu/SandhyaChintarapu.git" class="icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sandhya-c-54a84b246" class="icon"><i class="fab fa-linkedin"></i></a>
+
+                </a>
+            </div>
+            <div class="footer-bottom">
+                copyright &copy;2023 Sandhya Chintarapu
+            </div>
+        </footer>
+    </body>
+</html>

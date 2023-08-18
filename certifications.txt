@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Certifications</title>
+    <style>
+        body {
+            font-family: "pt sans", sans-serif;
+            margin: 0;
+            color: white; /* Set text color to white */
+            background-color: black; /* Set background color to black */
+            line-height: 1.6;
+            padding: 20px; /* Add some padding for readability */
+        }
+
+        h2 {
+            color: white; /* Set header color to white */
+        }
+
+        p {
+            margin-bottom: 20px; /* Add some space between paragraphs */
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .view-certificate {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .view-certificate:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <h2>Certifications</h2>
+    <p><strong>Java Programming: Solving Problems with Software
+    </strong><br>
+        <em>Coursera, Online Learning Platform</em><br><br>
+        I have successfully completed the "Java Programming: Solving Problems with
+Software
+" course on Coursera, which has provided me with a comprehensive understanding of Java programming concepts and problem-solving techniques. This course has been instrumental in enhancing my programming skills and preparing me to tackle complex challenges in software development.<br><br>
+        <strong>Key Takeaways:</strong><br>
+        - Proficient understanding of Java programming language, including data structures, algorithms, and object-oriented programming principles.<br>
+        - Mastery in solving real-world problems using Java, with a focus on optimizing code efficiency and performance.<br>
+        - Ability to design and implement algorithms to address various programming challenges, fostering logical and analytical thinking.<br>
+        - Practical experience in implementing coding solutions to solve diverse problems, including data manipulation, sorting, searching, and dynamic programming.<br>
+        - Application of best practices in software development, including code documentation, modularity, and maintainability.<br><br>
+        <strong>Achievements:</strong><br>
+        Throughout the course, I consistently excelled in assignments and assessments, showcasing my dedication to mastering Java programming and problem-solving skills. I successfully completed projects that involved designing and implementing efficient solutions to complex programming tasks. My commitment to continuous learning enabled me to consistently improve my coding abilities and analytical thinking.<br><br>
+        <strong>Impact:</strong><br>
+        The skills and knowledge I gained from this course have significantly bolstered my programming capabilities and problem-solving aptitude. I am now well-equipped to contribute effectively to software development projects, apply innovative solutions to challenges, and collaborate with cross-functional teams to create efficient and scalable applications.<br><br>
+        I am excited to apply the skills acquired from the "Java Programming: Solving Problems with
+Software
+" course to contribute meaningfully to software development projects and continue my journey of growth as a proficient programmer.</p>
+
+    <div class="btn-container">
+        <a href="certifi.pdf" class="view-certificate" target="_blank" download>View Certificate (PDF)</a>
+    </div>
+</body>
+</html>
