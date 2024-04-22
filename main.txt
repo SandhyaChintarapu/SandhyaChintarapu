@@ -162,7 +162,7 @@
 
     <section id="profile" class="section">
         <div class="container">
-            <img src="sandhu.jpg" alt="Profile Photo" class="profile-photo">
+            <img src="mypic.jpg" alt="Profile Photo" class="profile-photo">
             <h2>Sandhya Chintarapu</h2>
             <p>Email: <a href="mailto:csandhya2k2@gmail.com">csandhya2k2@gmail.com</a></p>
             <p><a href="#about.html" target="_blank">Hire Me</a></p>
